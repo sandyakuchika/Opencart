@@ -7,13 +7,27 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testcases.TC_003_LoginDataDrivenTest">
+      <class name="testcases.TC_005_AddToCartPageTest">
         <methods>
-          <include name="test_LoginDDT" invocation-numbers="4"/>
+          <include name="test_addToCart"/>
           <include name="setUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.TC_003_LoginDataDrivenTest -->
+      </class> <!-- testcases.TC_005_AddToCartPageTest -->
+      <class name="testcases.TC_004_SearchProductTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test_pruductSearch"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC_004_SearchProductTest -->
+      <class name="testcases.TC_006_EndToEndTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="endToendTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC_006_EndToEndTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

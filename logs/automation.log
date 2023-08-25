@@ -118,3 +118,15 @@
 16:22:59.607 [main] INFO  testcases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
 16:23:10.703 [main] INFO  testcases.TC_003_LoginDataDrivenTest -  Finished TC_003_LoginDataDrivenTest
 16:23:10.703 [main] INFO  testcases.TC_003_LoginDataDrivenTest -  Starting TC_003_LoginDataDrivenTest 
+10:51:03.096 [main] INFO  testcases.TC_001_AccountRegistrationTest - Account Registration Started
+10:51:04.996 [main] INFO  testcases.TC_001_AccountRegistrationTest - Account Registration ended sucessfully
+10:51:08.402 [main] INFO  testcases.TC_002_LoginTest - TC_002_LoginTest Started
+10:51:19.664 [main] INFO  testcases.TC_002_LoginTest - TC_002_LoginTest Started
+10:51:23.531 [main] INFO  testcases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTest 
+10:51:51.072 [main] INFO  testcases.TC_005_AddToCartPageTest -  Starting TC_005_AddToCartPageTest 
+10:57:15.044 [main] INFO  testcases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTest 
+10:57:38.849 [main] INFO  testcases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTest 
+11:02:10.357 [main] INFO  testcases.TC_004_SearchProductTest -  Starting TC_004_SearchProductTest 
+11:02:34.442 [main] INFO  testcases.TC_004_SearchProductTest -  Finished TC_004_SearchProductTest 
+11:02:37.627 [main] INFO  testcases.TC_005_AddToCartPageTest -  Starting TC_005_AddToCartPageTest 
+11:02:59.672 [main] INFO  testcases.TC_005_AddToCartPageTest -  Finished TC_004_SearchProductTest 

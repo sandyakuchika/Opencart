@@ -13,6 +13,12 @@ public class HomePage extends BasePage {
 	WebElement lnkRegister;
 	@FindBy(linkText = "Login")
 	WebElement linkLogin;
+	
+	@FindBy(xpath="//input[@placeholder='Search']") 
+	WebElement txtSearchbox;
+	
+	@FindBy(xpath="//div[@id='search']//button[@type='button']")
+	WebElement btnSearch;
 
 	public HomePage(WebDriver driver) {
 		super(driver);
@@ -30,4 +36,15 @@ public class HomePage extends BasePage {
 	public void clickLogin() {
 		linkLogin.click();
 	}
+	
+	public void enterProductName(String pName)   //For Search Product Test
+	{
+		txtSearchbox.sendKeys(pName);
+	}
+	
+	public void clickSearch()  //For Search Product Test
+	{
+		btnSearch.click();
+	}
+	
 }
